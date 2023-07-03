@@ -6,8 +6,8 @@ import java.util.Map;
 public class FamilyTree {
     private Map<Person,String>relation = new HashMap<>();
 
-    public FamilyTree(Map<Person, String> relation) {
-        this.relation = relation;
+    public FamilyTree() {
+
     }
 
     public void addRelation (Person person, String relation){
@@ -15,6 +15,7 @@ public class FamilyTree {
     }
 
     public void printFamilyTree(Person person, String relation){
+
 
     }
 

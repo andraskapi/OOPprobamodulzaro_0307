@@ -4,6 +4,7 @@ import animal.Animal;
 import animal.Elephant;
 import animal.Lion;
 import animal.Seal;
+import family.Person;
 
 public class Main {
     public static void main(String[] args) {
@@ -32,6 +33,13 @@ public class Main {
         dumbo.makeSound();
         System.out.println(dumbo.getNickName());
         Animal.numberOfAnimals();
+
+        Person alma = new Person("Alma","Cecil","Béla");
+        Person cecil = new Person("Cecil","Emőke","Dénes");
+        Person emoke = new Person("Emőke","Gyöngyi","Ferenc");
+        System.out.println(alma.getFathersName());
+
+
 
 
 
